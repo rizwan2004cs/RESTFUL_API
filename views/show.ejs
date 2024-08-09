@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quora</title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <h1>Quora post</h1>
+        <h2>Here is your post</h2>
+        <h3>post id : <%= post.id %></h3>
+        <div class="post">
+            <h3 class="user"><%= post.username%> </h3>
+            <h4 class="content"><%= post.content %></h4>
+        </div>
+    
+    <br>
+<hr>
+<br>
+<a href="http://localhost:808/posts/new">New post</a>
+</body>
+</html>
